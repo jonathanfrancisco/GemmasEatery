@@ -1,4 +1,8 @@
-
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;  
+}
 body {
     margin: 0;
     padding: 0;
@@ -18,20 +22,21 @@ a {
 *****************/
 .container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    box-shadow: 0px 0px 12px -4px black;
 }
 
 .header {
     height: 70vh;
-    background: url('images/header-2.jpg');
+    background: url('images/header-3.jpg');
     background-size: cover;
     color: #fff;
+    text-align: center;
 }
 
 .header nav {
     background-color: rgba(0,0,0,0.4);
-    text-align: center;
 }
 
 .header nav a {
@@ -42,5 +47,52 @@ a {
 }
 
 .header nav a:hover {
-    background-color: black;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.active {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.header-details {
+    margin: 12% 0 0 0;
+    background-color: rgba(0,0,0,0.7);
+    padding: 20px;
+}
+
+.header-details h1 {
+    font-size: 7em;
+    margin: 0;   
+    color: #ecf0f1;
+}
+
+.header-details button {
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ecf0f1;
+    color: #ecf0f1;
+    background: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 1.15em;
+}
+.header-details button:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*********************
+    Delicious
+    and Affordable bruhh!!
+
+******************/
+
+#what img {
+    max-width: 100%;
+}
+
+#what div {
+    padding: 2em;
+    width: 43.20%;
+    display: inline-block;
 }
