@@ -28,7 +28,7 @@ a {
 }
 
 .header {
-    height: 70vh;
+    height: 600px;
     background: url('images/header-3.jpg');
     background-size: cover;
     color: #fff;
