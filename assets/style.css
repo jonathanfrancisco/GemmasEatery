@@ -1,8 +1,10 @@
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;  
+#logo {
+    display: inline-block; 
+    float: left; 
+    font-family: 'Bilbo Swash Caps';
+    font-size: 2.2em; margin: 0; padding: 5px 10px 10px 15px;    
 }
+
 body {
     margin: 1.5em 0 0 0;
     padding: 0;
@@ -64,6 +66,10 @@ nav a:hover {
     font-size: 7em;
     margin: 0;   
     color: #ecf0f1;
+}
+
+#header-details h3 {
+    margin: 0 0 50px;
 }
 
 #header-details button {
