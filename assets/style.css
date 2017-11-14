@@ -78,5 +78,28 @@ body {
     cursor: pointer;
 }
 
+#offers .offer-item {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#offers .offer-item .item-image img {
+    width: 100%;
+}
+
+
+#offers .offer-item .item-image {
+    width: 40%;
+}
+
+#offers .offer-item .item-details {
+    width: 60%;
+    padding: 1em;
+}
+
+#offers .offer-item:nth-child(2) .item-details {
+    text-align: right;
+}
 
 
