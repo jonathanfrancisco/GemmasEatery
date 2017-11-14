@@ -29,7 +29,10 @@ body {
 
 #header .nav a {
     color: #fff;
+    font-size: 1.3em;
+    margin: 12px;
     text-decoration: none;
+    
 }
 
 #header .nav .links {
@@ -39,11 +42,6 @@ body {
     align-items: center;
 }
 
-#header .nav .links a {
-    font-size: 1.3em;
-    padding: 8px;
-    margin: 5px;
-}
 
 #header .nav .links a:hover {
     text-decoration: underline;
