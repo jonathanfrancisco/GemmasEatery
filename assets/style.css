@@ -78,6 +78,11 @@ body {
     cursor: pointer;
 }
 
+#offers {
+    max-width: 1400px;
+    margin: 2em auto;
+}
+
 #offers .offer-item {
     display: flex;
     flex-direction: row;
