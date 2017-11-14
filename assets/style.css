@@ -102,4 +102,8 @@ body {
     text-align: right;
 }
 
+#offers .offer-item:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
 
