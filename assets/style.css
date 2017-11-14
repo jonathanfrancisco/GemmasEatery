@@ -112,3 +112,11 @@ body {
 }
 
 
+#offers .offer-item .item-details h2 {
+    font-size: 3em;
+}
+
+#offers .offer-item .item-details p {
+    font-size: 1.25em;
+}
+
