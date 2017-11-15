@@ -10,8 +10,6 @@ body {
     color: #fff;
 }
 
-
-
 #header {
     height: 100vh;
     background: url('images/header-0.jpg');
@@ -118,3 +116,25 @@ body {
     font-size: 1.25em;
 }
 
+#footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #000;
+    padding-bottom: 1em;
+    font-size: 1.3em;
+}
+
+
+#footer div a {
+    color: black;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+#footer div a:hover{
+    color: rgba(0,0,0,0.5);
+}
