@@ -6,3 +6,19 @@ body {
     color: #000;
     
 }
+
+#foods {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#foods div img {
+    width: 100%;
+    height: 100%;
+}
+
+#foods div {
+    height: 450px;
+    width: 33.33%;
+}
