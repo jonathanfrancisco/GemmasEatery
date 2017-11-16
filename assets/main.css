@@ -10,11 +10,6 @@ body {
     color: #fff;
 }
 
-#header {
-    height: 100vh;
-    background: url('images/header-2.jpg');
-    background-size: cover;
-}
 
 #header .nav {
     display: flex;
