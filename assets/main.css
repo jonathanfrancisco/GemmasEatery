@@ -1,0 +1,47 @@
+
+.logo {
+    font-family: 'Bilbo Swash Caps';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata';
+    color: #fff;
+}
+
+#header {
+    height: 100vh;
+    background: url('images/header-2.jpg');
+    background-size: cover;
+}
+
+#header .nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px
+
+}
+
+#header .nav a {
+    color: #fff;
+    font-size: 1.3em;
+    margin: 12px;
+    text-decoration: none;
+    
+}
+
+#header .nav .links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#header .nav .links a:hover {
+    text-decoration: underline;
+    opacity: 0.75;
+}
