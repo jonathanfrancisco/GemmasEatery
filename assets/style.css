@@ -60,3 +60,17 @@ body {
 
 
 
+#about-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#about-content p {
+}
+
+#about-content img {
+    float: right;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    height: 500px;
+}
