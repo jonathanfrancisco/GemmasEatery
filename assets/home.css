@@ -65,15 +65,6 @@
     flex-direction: row-reverse;
 }
 
-
-#offers .offer-item .item-details h2 {
-    font-size: 3em;
-}
-
-#offers .offer-item .item-details p {
-    font-size: 1.25em;
-}
-
 #footer {
     max-width: 1200px;
     margin: 0 auto;
