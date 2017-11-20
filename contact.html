@@ -33,25 +33,37 @@
                 
                 <div class="contact-form">
                     <h3>Send us a message!</h3>
-                    <form onsubmit="processForm()">
+                    <div class="form">
                         <input type="text" required placeholder="Last name">
                         <br>
-                        <input type="text" required placeholder="First name">
+                        <input id="first-name" type="text" required placeholder="First name">
                         <br>
                         <input type="text" required placeholder="Contact number">
                         <input type="email" placeholder="Email address (Optional)">
                         <br>
                         <textarea rows="10" required placeholder="Your messsage...."></textarea>
                         <br>
-                        <button>Send message!</button> 
-            
-                    </form>
+                        <button onclick="processForm()">Send message!</button> 
+                    
+                    </div>
                 </div>   
                 <div class="location">
                     <h3>Find us!</h3>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3790.1110301043504!2d120.59854672215393!3d18.20482084846721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc019d5364f1ae48e!2sGEMMA&#39;s+BOARDING+HOUSE+%26+EATERY!5e0!3m2!1sen!2sph!4v1511112240120" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div> 
+                
             </div>
+
+        
+
+            <div class="after-messsage-overlay">
+                <div class="messageBox">
+                    <p class="message"></p>
+                    <p onclick="closeOverlay()">close X</p>
+                </div>
+                
+            </div>
+          
 
             <script src="assets/app.js"></script>
     </body>
