@@ -5,9 +5,8 @@
     background-size: cover;
 }
 
-#header .headline {
-    margin-top: 5%;  
-    padding: 7em 0;
+#header .headline { 
+    padding-top: 5em;
     text-align: center;
     /* background-color: rgba(144,202,249,0.2); */
 }
