@@ -34,17 +34,18 @@
                 <div class="contact-form">
                     <h3>Send us a message!</h3>
                     <div class="form">
-                        <input type="text" required placeholder="Last name">
-                        <br>
-                        <input id="first-name" type="text" required placeholder="First name">
-                        <br>
-                        <input type="text" required placeholder="Contact number">
-                        <input type="email" placeholder="Email address (Optional)">
-                        <br>
-                        <textarea rows="10" required placeholder="Your messsage...."></textarea>
-                        <br>
-                        <button onclick="processForm()">Send message!</button> 
-                    
+                        <form>
+                            <input type="text" required placeholder="Last name">
+                            <br>
+                            <input id="first-name" type="text" required placeholder="First name">
+                            <br>
+                            <input type="text" required placeholder="Contact number">
+                            <input type="email" placeholder="Email address (Optional)">
+                            <br>
+                            <textarea rows="10" required placeholder="Your messsage...."></textarea>
+                            <br>
+                            <button onsubmit="processForm()">Send message!</button> 
+                        </form>
                     </div>
                 </div>   
                 <div class="location">

@@ -1,8 +1,10 @@
+const contactForm = document.querySelector('form');
 
 
-
-
-
+contactForm.addEventListener('submit', function(event) {
+    event.preventDefault();
+    processForm();
+});
 
 
 function processForm() {
