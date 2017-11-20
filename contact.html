@@ -33,15 +33,15 @@
                 
                 <div class="contact-form">
                     <h3>Send us a message!</h3>
-                    <form>
+                    <form onsubmit="processForm()">
                         <input type="text" required placeholder="Last name">
                         <br>
                         <input type="text" required placeholder="First name">
                         <br>
-                        <input type="email" required placeholder="Email address">
+                        <input type="text" required placeholder="Contact number">
+                        <input type="email" placeholder="Email address (Optional)">
                         <br>
-                        <textarea>
-                        </textarea>
+                        <textarea rows="10" required placeholder="Your messsage...."></textarea>
                         <br>
                         <button>Send message!</button> 
             
@@ -53,6 +53,6 @@
                 </div> 
             </div>
 
-
+            <script src="assets/app.js"></script>
     </body>
 </html>
